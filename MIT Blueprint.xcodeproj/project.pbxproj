@@ -16,6 +16,7 @@
 		699BBA7025E2A07700B2B959 /* LocalDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BBA6F25E2A07700B2B959 /* LocalDataViewController.swift */; };
 		699BBA7525E2A09C00B2B959 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BBA7425E2A09C00B2B959 /* MapViewController.swift */; };
 		699BBA7A25E2A0B600B2B959 /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BBA7925E2A0B600B2B959 /* UpdateViewController.swift */; };
+		699BBA8525E2A29100B2B959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BBA8425E2A29100B2B959 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		699BBA6F25E2A07700B2B959 /* LocalDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataViewController.swift; sourceTree = "<group>"; };
 		699BBA7425E2A09C00B2B959 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		699BBA7925E2A0B600B2B959 /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
+		699BBA8425E2A29100B2B959 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				699BBA3B25E2956500B2B959 /* HomeViewController.swift */,
+				699BBA8425E2A29100B2B959 /* AppDelegate.swift */,
 				699BBA6A25E2A01F00B2B959 /* TabBarController.swift */,
 				699BBA6F25E2A07700B2B959 /* LocalDataViewController.swift */,
 				699BBA7425E2A09C00B2B959 /* MapViewController.swift */,
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				699BBA8525E2A29100B2B959 /* AppDelegate.swift in Sources */,
 				699BBA6B25E2A01F00B2B959 /* TabBarController.swift in Sources */,
 				699BBA7025E2A07700B2B959 /* LocalDataViewController.swift in Sources */,
 				699BBA3C25E2956500B2B959 /* HomeViewController.swift in Sources */,
