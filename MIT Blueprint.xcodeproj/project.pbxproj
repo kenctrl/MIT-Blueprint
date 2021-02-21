@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6992B25925E2D51B00D8E6BF /* SongTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6992B25825E2D51B00D8E6BF /* SongTableViewController.swift */; };
+		6992B25E25E2D52600D8E6BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6992B25D25E2D52600D8E6BF /* SceneDelegate.swift */; };
 		699BBA3C25E2956500B2B959 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BBA3B25E2956500B2B959 /* HomeViewController.swift */; };
 		699BBA3E25E2956900B2B959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 699BBA3D25E2956900B2B959 /* Assets.xcassets */; };
 		699BBA4125E2956900B2B959 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 699BBA4025E2956900B2B959 /* Preview Assets.xcassets */; };
 		699BBA4C25E2956900B2B959 /* MIT_BlueprintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BBA4B25E2956900B2B959 /* MIT_BlueprintTests.swift */; };
 		699BBA5725E2956900B2B959 /* MIT_BlueprintUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BBA5625E2956900B2B959 /* MIT_BlueprintUITests.swift */; };
 		699BBA6B25E2A01F00B2B959 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BBA6A25E2A01F00B2B959 /* TabBarController.swift */; };
-		699BBA7025E2A07700B2B959 /* LocalDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BBA6F25E2A07700B2B959 /* LocalDataViewController.swift */; };
-		699BBA7525E2A09C00B2B959 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BBA7425E2A09C00B2B959 /* MapViewController.swift */; };
-		699BBA7A25E2A0B600B2B959 /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BBA7925E2A0B600B2B959 /* UpdateViewController.swift */; };
 		699BBA8525E2A29100B2B959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BBA8425E2A29100B2B959 /* AppDelegate.swift */; };
+		69AEC78D25E2D3D80032531D /* SongOfDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AEC78C25E2D3D80032531D /* SongOfDayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6992B25825E2D51B00D8E6BF /* SongTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SongTableViewController.swift; path = ../../../SongTableViewController.swift; sourceTree = "<group>"; };
+		6992B25D25E2D52600D8E6BF /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../../SceneDelegate.swift; sourceTree = "<group>"; };
 		699BBA3625E2956500B2B959 /* MIT Blueprint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MIT Blueprint.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		699BBA3B25E2956500B2B959 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		699BBA3D25E2956900B2B959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,10 +51,8 @@
 		699BBA5625E2956900B2B959 /* MIT_BlueprintUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIT_BlueprintUITests.swift; sourceTree = "<group>"; };
 		699BBA5825E2956900B2B959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		699BBA6A25E2A01F00B2B959 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		699BBA6F25E2A07700B2B959 /* LocalDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataViewController.swift; sourceTree = "<group>"; };
-		699BBA7425E2A09C00B2B959 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		699BBA7925E2A0B600B2B959 /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
 		699BBA8425E2A29100B2B959 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69AEC78C25E2D3D80032531D /* SongOfDayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongOfDayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,9 +106,9 @@
 				699BBA3B25E2956500B2B959 /* HomeViewController.swift */,
 				699BBA8425E2A29100B2B959 /* AppDelegate.swift */,
 				699BBA6A25E2A01F00B2B959 /* TabBarController.swift */,
-				699BBA6F25E2A07700B2B959 /* LocalDataViewController.swift */,
-				699BBA7425E2A09C00B2B959 /* MapViewController.swift */,
-				699BBA7925E2A0B600B2B959 /* UpdateViewController.swift */,
+				69AEC78C25E2D3D80032531D /* SongOfDayViewController.swift */,
+				6992B25825E2D51B00D8E6BF /* SongTableViewController.swift */,
+				6992B25D25E2D52600D8E6BF /* SceneDelegate.swift */,
 				699BBA3D25E2956900B2B959 /* Assets.xcassets */,
 				699BBA4225E2956900B2B959 /* Info.plist */,
 				699BBA3F25E2956900B2B959 /* Preview Content */,
@@ -271,12 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6992B25925E2D51B00D8E6BF /* SongTableViewController.swift in Sources */,
 				699BBA8525E2A29100B2B959 /* AppDelegate.swift in Sources */,
 				699BBA6B25E2A01F00B2B959 /* TabBarController.swift in Sources */,
-				699BBA7025E2A07700B2B959 /* LocalDataViewController.swift in Sources */,
 				699BBA3C25E2956500B2B959 /* HomeViewController.swift in Sources */,
-				699BBA7525E2A09C00B2B959 /* MapViewController.swift in Sources */,
-				699BBA7A25E2A0B600B2B959 /* UpdateViewController.swift in Sources */,
+				69AEC78D25E2D3D80032531D /* SongOfDayViewController.swift in Sources */,
+				6992B25E25E2D52600D8E6BF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
