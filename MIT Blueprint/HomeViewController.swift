@@ -15,14 +15,20 @@ class HomeViewController: UIViewController{
         
         self.view.addSubview(myLabel)
         myLabel.backgroundColor = .blue
-        myLabel.translatesAutoresizingMaskIntoConstraints = false
+        myLabel.text = "Hello World"
+        myLabel.textColor = .white
+        myLabel.textAlignment = .center
         
+        myLabel.translatesAutoresizingMaskIntoConstraints = false
+    
         NSLayoutConstraint.activate([
-            myLabel.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor),
+            myLabel.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor, constant: 5),
             myLabel.heightAnchor.constraint(equalToConstant: 50),
             myLabel.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 50),
             myLabel.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -50)
+            
         ])
+        
     }
 }
 
